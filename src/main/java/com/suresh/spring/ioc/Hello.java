@@ -18,7 +18,7 @@ public class Hello {
 		String message = service.sayHello();
 		System.out.println(message);
 		System.out.println("Suresh");
- 
+		System.out.println("Suresh123");
 		//set a new name
 		service.setName("Spring");
 		message = service.sayHello();
