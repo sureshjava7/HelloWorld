@@ -17,6 +17,7 @@ public class Hello {
 				.getBean("helloWorldService");
 		String message = service.sayHello();
 		System.out.println(message);
+		System.out.println("Suresh");
  
 		//set a new name
 		service.setName("Spring");
